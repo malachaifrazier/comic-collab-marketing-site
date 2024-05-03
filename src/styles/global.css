@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+/* :root {
+  --rgb-black: 0, 0, 0;
+  --rgb-blue: 0, 100, 230;
+  --rgb-blue-dark: 0, 55, 115;
+  --rgb-blue-darker: 0, 40, 218;
+  --rgb-blue-light: 194, 246, 255;
+  --rgb-blue-lighter: 242, 247, 254;
+  --rgb-green: 0, 177, 50;
+  --rgb-green-dark: 0, 159, 18;
+  --rgb-red: 195, 35, 70;
+  --rgb-orange: 255, 138, 0;
+  --rgb-white: 255, 255, 255;
+  --color-black: rgb(var(--rgb-black));
+  --color-blue: rgb(var(--rgb-blue));
+  --color-blue-dark: rgb(var(--rgb-blue-dark));
+  --color-blue-darker: rgb(var(--rgb-blue-darker));
+  --color-blue-light: rgb(var(--rgb-blue-light));
+  --color-blue-lighter: rgb(var(--rgb-blue-lighter));
+  --color-green: rgb(var(--rgb-green));
+  --color-green-dark: rgb(var(--rgb-green-dark));
+  --color-red: rgb(var(--rgb-red));
+  --color-orange: rgb(var(--rgb-orange));
+  --color-white: rgb(var(--rgb-white));
+  --font-size: clamp(1.375rem, 2.225vw, 2rem);
+  --letter-spacing: -0.0015em;
+  --line-height: 1.3;
+  --transition: 0.15s cubic-bezier(0.33, 1, 0.68, 1)
+} */
+
 html {
   overflow-y: scroll;
   color-scheme: light;
@@ -22,6 +51,7 @@ body {
   @apply bg-stone-100 dark:bg-stone-900;
   @apply text-black/50 dark:text-white/75;
 }
+
 
 header {
   @apply fixed top-0 left-0 right-0 z-50 py-5;
