@@ -19,8 +19,9 @@ body {
 body {
   @apply font-sans antialiased;
   @apply flex flex-col;
-  @apply bg-stone-100 dark:bg-stone-900;
-  @apply text-black/50 dark:text-white/75;
+  /* @apply bg-stone-100 dark:bg-stone-900; */
+  /* @apply text-black/50 dark:text-white/75; */
+  background-color: rgb(37 99 235);
 }
 
 header {
@@ -33,6 +34,10 @@ main {
   @apply flex-1 py-32;
 }
 
+main h1 {
+  @apply text-3xl font-bold;
+}
+
 footer {
   @apply py-5 text-sm;
 }
@@ -41,6 +46,10 @@ article {
   @apply max-w-full prose dark:prose-invert prose-img:mx-auto prose-img:my-auto;
   @apply prose-headings:font-semibold prose-p:font-serif;
   @apply prose-headings:text-black prose-headings:dark:text-white;
+}
+
+article p {
+  font-size: 1.525rem;
 }
 
 @layer utilities {
