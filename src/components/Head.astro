@@ -103,7 +103,7 @@ const { title, description, image = "/ComicCollab_Letter_Logo_1_500x500.png" } =
     window.matchMedia("(prefers-color-scheme: light)")
       .addEventListener("change", event => {
         if (localStorage.theme === "system") {
-          // toggleTheme(event.matches);
+          toggleTheme(event.matches);
         }
       }
     );
